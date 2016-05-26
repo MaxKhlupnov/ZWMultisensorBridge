@@ -301,3 +301,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/ZWMultisensorBridge/HeadlessAdapterApp/Generated Files/MainPage.g.h
+/ZWMultisensorBridge/HeadlessAdapterApp/Generated Files/XamlBindingInfo.g.h
+/ZWMultisensorBridge/HeadlessAdapterApp/Generated Files/XamlLibMetadataProvider.g.cpp
+/ZWMultisensorBridge/HeadlessAdapterApp/Generated Files/XamlTypeInfo.g.h
+/ZWMultisensorBridge/HeadlessAdapterApp/Generated Files/XamlTypeInfo.Impl.g.cpp

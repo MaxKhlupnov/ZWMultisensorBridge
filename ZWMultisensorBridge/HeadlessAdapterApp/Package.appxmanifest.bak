@@ -50,9 +50,6 @@
   </Applications>
 
   <Capabilities>
-    <Capability Name="internetClient" />
-    <Capability Name="privateNetworkClientServer" />
     <Capability Name="allJoyn" />
-    <DeviceCapability Name="serialcommunication" />
   </Capabilities>
 </Package>

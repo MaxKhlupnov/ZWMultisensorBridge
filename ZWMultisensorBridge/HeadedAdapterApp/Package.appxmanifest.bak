@@ -22,10 +22,6 @@
   </Applications>
   <Capabilities>
     <Capability Name="allJoyn" />
-    <DeviceCapability Name="serialcommunication">
-      <Device Id="any">
-        <Function Type="name:serialPort" />
-      </Device>
-    </DeviceCapability>
+    <Capability Name="internetClient" />
   </Capabilities>
 </Package>

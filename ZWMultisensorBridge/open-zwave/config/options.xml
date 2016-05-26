@@ -15,6 +15,7 @@
   Devices) This option will make the UserCode CC stop on the first
   "available" usercode slot rather than retrieve every one -->
   <Option name="RefreshAllUserCodes" value="false" />
+  <!-- Option name="ControllerPath" value="\\.\COM3"/ -->
   <Option name="ControllerPath" value="VID_0658&amp;PID_0200" />
   <!--  Option name="ControllerPath" value="VID_10C4&amp;PID_EA60" /    -->
   <Option name="ThreadTerminateTimeout" value="5000" />

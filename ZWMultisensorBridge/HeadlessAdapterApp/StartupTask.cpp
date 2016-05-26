@@ -7,13 +7,13 @@ using namespace HeadlessAdapterApp;
 
 void StartupTask::Run(IBackgroundTaskInstance^ taskInstance)
 {
-    AdapterLib::Adapter^ adapter = nullptr;
+    AdapterLib::ZWaveAdapter^ adapter = nullptr;
 
     deferral = taskInstance->GetDeferral();
 
     try
     {
-        adapter = ref new AdapterLib::Adapter();
+		adapter = ref new AdapterLib::ZWaveAdapter();
 
         dsbBridge = ref new BridgeRT::DsbBridge(adapter);
 
